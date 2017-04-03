@@ -150,18 +150,20 @@
 		</div>
 <article> 
 	<h3> <u> Get Started </u> </h3>
-	<h4> Sign in </h4> 
-        <div class = "p2">
-          <label>Log-in / Username: </label>
-          <input type = "text"
-                 id = "myText"/>
-		<br>
-      	   <label> Password </label>
-          <input type ='password'
-		 id = "myPwd"
-                  value = "" />
-	</div>
-	<button> Sign-in </button>
+<form class="form-inline">
+  <div class="form-group">
+    <label for="email">Email address:</label>
+    <input type="email" class="form-control" id="email">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Password:</label>
+    <input type="password" class="form-control" id="pwd">
+  </div>
+  <div class="checkbox">
+    <label><input type="checkbox"> Remember me</label>
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
 	<h4> Not already a member? Sign-up! </h4>
 	 <p2>
           <label> Enter your email address: </label>
